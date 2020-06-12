@@ -21,11 +21,12 @@ export const Container = styled.div`
       font-weight: bold;
       text-transform: uppercase;
 
-      transition:background 0.2s;
+      transition: background 0.2s;
 
-      &:hover{
-        background: ${darken(0.2, '#7159c1')}
+      &:hover {
+        background: ${darken(0.2, '#7159c1')};
       }
+    }
   }
 `;
 

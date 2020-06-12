@@ -31,7 +31,7 @@ export const ProductList = styled.ul`
       font-weight: bold;
       margin: 5px 0 20px;
     }
-    
+
     button {
       background: #7159c1;
       color: #fff;
@@ -43,26 +43,27 @@ export const ProductList = styled.ul`
       display: flex;
       align-items: center;
 
-      transition:background 0.2s;
+      transition: background 0.2s;
 
-      &:hover{
-        background: ${darken(0.2, '#7159c1')}
+      &:hover {
+        background: ${darken(0.2, '#7159c1')};
       }
 
-      div{
-        display:flex;
+      div {
+        display: flex;
         align-items: center;
-        padding:12px;
-        background: rgba(0,0,0,0.2);
+        padding: 12px;
+        background: rgba(0, 0, 0, 0.2);
 
-        svg{
+        svg {
           margin-right: 5px;
         }
       }
       span {
-        flex:1;
+        flex: 1;
         text-align: center;
         font-weight: bold;
       }
     }
+  }
 `;
